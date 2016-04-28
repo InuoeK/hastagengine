@@ -1,0 +1,10 @@
+Character1-Hello, I am a character
+Character2-Hello, I am another character
+Character1-Some basic functionality of the #tag engine are: typewriter text and the #tag modification system
+#Lines beginning with # character are modifier lines and are won't be output as text
+#Hastag lines will allow the developer to control things such as font size, camera shakes, and simple sprite movement in the future
+Character1-For simple speech, type the character's name followed by the - character. The text will automatically be seperated into character name and speech text
+Character2-You can edit the testscript.txt file in the assets folder too!
+Character2-Just change the script file and hit the reload[debug] button to see your changes take effect!
+Character1-Remember to hit enter after the last line or the engine will ignore it!
+#End of file reached
