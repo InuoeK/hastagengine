@@ -54,10 +54,9 @@ public class ScriptParser : MonoBehaviour
         modP = new ModifierProcessor();
         modifierKey = '#';
         elapsedTime = 0.0f;
-        //LoadScriptIntoMemory("Assets/Scripts/testscript.txt");
         LoadScriptIntoMemory(Application.dataPath + "/Scripts/testscript.txt");
-        characterName = transform.FindChild("TextPanel").FindChild("NameTag").FindChild("SpeakerName").GetComponent<Text>();
-        speakingText = transform.FindChild("TextPanel").FindChild("SpeakerText").GetComponent<Text>();
+        characterName = transform.Find("TextPanel").Find("NameTag").Find("SpeakerName").GetComponent<Text>();
+        speakingText = transform.Find("TextPanel").Find("SpeakerText").GetComponent<Text>();
         characterName.text = speakingText.text = "Null";
         ProcessTextLine();
     }
